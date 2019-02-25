@@ -1,0 +1,198 @@
+2019-02-23T14:58:26,216 DEBUG [http-nio-8080-exec-3] [TicketController] Finding number of seats available for all levels
+2019-02-23T14:58:26,232 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Finding number of seats available for the venue level 
+2019-02-23T14:58:26,232 DEBUG [http-nio-8080-exec-3] [TicketValidatorImpl] Determining if input venueLevel '' is valid
+2019-02-23T14:58:26,245 DEBUG [http-nio-8080-exec-3] [TicketValidatorImpl] Venue level '' is valid
+2019-02-23T14:58:26,246 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Removing expired seats
+2019-02-23T14:58:26,260 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-23T14:57:26.256-0500 
+2019-02-23T14:58:26,295 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-23T14:57:26.256-0500 are []
+2019-02-23T14:58:26,296 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] No expired seat holds found
+2019-02-23T14:58:26,296 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding all Venues
+2019-02-23T14:58:26,309 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finished finding all Venues [Venue{levelId=1, levelName='Orchestra', price=100, rows=25, seatsInRow=50}, Venue{levelId=2, levelName='Main', price=75, rows=20, seatsInRow=100}, Venue{levelId=3, levelName='Balcony 1', price=50, rows=15, seatsInRow=100}, Venue{levelId=4, levelName='Balcony 2', price=40, rows=15, seatsInRow=100}] 
+2019-02-23T14:58:26,340 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Seat bookings by level id 1
+2019-02-23T14:58:26,346 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Seat bookings for level 1 are []
+2019-02-23T14:58:26,348 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Seat bookings by level id 2
+2019-02-23T14:58:26,349 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Seat bookings for level 2 are []
+2019-02-23T14:58:26,349 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Seat bookings by level id 3
+2019-02-23T14:58:26,350 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Seat bookings for level 3 are []
+2019-02-23T14:58:26,350 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Seat bookings by level id 4
+2019-02-23T14:58:26,351 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Seat bookings for level 4 are []
+2019-02-23T14:58:26,353 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Number of seats available for the venue  are 6250
+2019-02-23T14:58:26,355 DEBUG [http-nio-8080-exec-3] [TicketController] Number of seats available for all levels are 6250
+2019-02-23T14:58:43,511 DEBUG [http-nio-8080-exec-6] [TicketController] Finding number of seats available for all levels
+2019-02-23T14:58:43,512 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] Finding number of seats available for the venue level 
+2019-02-23T14:58:43,512 DEBUG [http-nio-8080-exec-6] [TicketValidatorImpl] Determining if input venueLevel '' is valid
+2019-02-23T14:58:43,513 DEBUG [http-nio-8080-exec-6] [TicketValidatorImpl] Venue level '' is valid
+2019-02-23T14:58:43,513 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] Removing expired seats
+2019-02-23T14:58:43,514 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-23T14:57:43.514-0500 
+2019-02-23T14:58:43,516 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-23T14:57:43.514-0500 are []
+2019-02-23T14:58:43,516 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] No expired seat holds found
+2019-02-23T14:58:43,516 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding all Venues
+2019-02-23T14:58:43,517 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finished finding all Venues [Venue{levelId=1, levelName='Orchestra', price=100, rows=25, seatsInRow=50}, Venue{levelId=2, levelName='Main', price=75, rows=20, seatsInRow=100}, Venue{levelId=3, levelName='Balcony 1', price=50, rows=15, seatsInRow=100}, Venue{levelId=4, levelName='Balcony 2', price=40, rows=15, seatsInRow=100}] 
+2019-02-23T14:58:43,517 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Seat bookings by level id 1
+2019-02-23T14:58:43,518 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Seat bookings for level 1 are []
+2019-02-23T14:58:43,519 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Seat bookings by level id 2
+2019-02-23T14:58:43,522 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Seat bookings for level 2 are []
+2019-02-23T14:58:43,522 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Seat bookings by level id 3
+2019-02-23T14:58:43,529 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Seat bookings for level 3 are []
+2019-02-23T14:58:43,529 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Seat bookings by level id 4
+2019-02-23T14:58:43,531 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Seat bookings for level 4 are []
+2019-02-23T14:58:43,531 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] Number of seats available for the venue  are 6250
+2019-02-23T14:58:43,531 DEBUG [http-nio-8080-exec-6] [TicketController] Number of seats available for all levels are 6250
+2019-02-23T15:01:51,907 DEBUG [http-nio-8080-exec-7] [TicketController] Finding number of seats available for level {levelId}
+2019-02-23T15:01:51,908 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] Finding number of seats available for the venue level {levelId}
+2019-02-23T15:01:51,908 DEBUG [http-nio-8080-exec-7] [TicketValidatorImpl] Determining if input venueLevel '{levelId}' is valid
+2019-02-23T15:01:51,914 ERROR [http-nio-8080-exec-7] [TicketExceptionHandler] Validation errors! Sending HTTP status '400' along [com.walmart.ticket.common.entity.ClientError@8b5a065c]
+2019-02-23T15:02:36,683 DEBUG [http-nio-8080-exec-9] [TicketController] Finding number of seats available for level {levelId}
+2019-02-23T15:02:36,686 DEBUG [http-nio-8080-exec-9] [TicketServiceImpl] Finding number of seats available for the venue level {levelId}
+2019-02-23T15:02:36,686 DEBUG [http-nio-8080-exec-9] [TicketValidatorImpl] Determining if input venueLevel '{levelId}' is valid
+2019-02-23T15:02:36,687 ERROR [http-nio-8080-exec-9] [TicketExceptionHandler] Validation errors! Sending HTTP status '400' along [com.walmart.ticket.common.entity.ClientError@8b5a065c]
+2019-02-23T15:03:15,070 DEBUG [http-nio-8080-exec-1] [TicketController] Finding number of seats available for level 1
+2019-02-23T15:03:15,071 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] Finding number of seats available for the venue level 1
+2019-02-23T15:03:15,071 DEBUG [http-nio-8080-exec-1] [TicketValidatorImpl] Determining if input venueLevel '1' is valid
+2019-02-23T15:03:15,071 DEBUG [http-nio-8080-exec-1] [TicketValidatorImpl] Venue level '1' is valid
+2019-02-23T15:03:15,071 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] Removing expired seats
+2019-02-23T15:03:15,073 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-23T15:02:15.072-0500 
+2019-02-23T15:03:15,074 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-23T15:02:15.072-0500 are []
+2019-02-23T15:03:15,074 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] No expired seat holds found
+2019-02-23T15:03:15,074 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Finding venue details for input venue level 1
+2019-02-23T15:03:15,076 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=1, levelName='Orchestra', price=100, rows=25, seatsInRow=50}
+2019-02-23T15:03:15,076 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Finding Seat bookings by level id 1
+2019-02-23T15:03:15,077 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Seat bookings for level 1 are []
+2019-02-23T15:03:15,077 DEBUG [http-nio-8080-exec-1] [TicketController] Number of seats available at the level 1 are 1250
+2019-02-23T15:03:22,702 DEBUG [http-nio-8080-exec-2] [TicketController] Finding number of seats available for level 2
+2019-02-23T15:03:22,703 DEBUG [http-nio-8080-exec-2] [TicketServiceImpl] Finding number of seats available for the venue level 2
+2019-02-23T15:03:22,703 DEBUG [http-nio-8080-exec-2] [TicketValidatorImpl] Determining if input venueLevel '2' is valid
+2019-02-23T15:03:22,703 DEBUG [http-nio-8080-exec-2] [TicketValidatorImpl] Venue level '2' is valid
+2019-02-23T15:03:22,703 DEBUG [http-nio-8080-exec-2] [TicketServiceImpl] Removing expired seats
+2019-02-23T15:03:22,704 DEBUG [http-nio-8080-exec-2] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-23T15:02:22.703-0500 
+2019-02-23T15:03:22,705 DEBUG [http-nio-8080-exec-2] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-23T15:02:22.703-0500 are []
+2019-02-23T15:03:22,705 DEBUG [http-nio-8080-exec-2] [TicketServiceImpl] No expired seat holds found
+2019-02-23T15:03:22,705 DEBUG [http-nio-8080-exec-2] [TicketRepositoryImpl] Finding venue details for input venue level 2
+2019-02-23T15:03:22,706 DEBUG [http-nio-8080-exec-2] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=2, levelName='Main', price=75, rows=20, seatsInRow=100}
+2019-02-23T15:03:22,706 DEBUG [http-nio-8080-exec-2] [TicketRepositoryImpl] Finding Seat bookings by level id 2
+2019-02-23T15:03:22,711 DEBUG [http-nio-8080-exec-2] [TicketRepositoryImpl] Seat bookings for level 2 are []
+2019-02-23T15:03:22,711 DEBUG [http-nio-8080-exec-2] [TicketController] Number of seats available at the level 2 are 2000
+2019-02-23T15:03:45,019 DEBUG [http-nio-8080-exec-4] [TicketController] Finding number of seats available for level hold
+2019-02-23T15:03:45,020 DEBUG [http-nio-8080-exec-4] [TicketServiceImpl] Finding number of seats available for the venue level hold
+2019-02-23T15:03:45,024 DEBUG [http-nio-8080-exec-4] [TicketValidatorImpl] Determining if input venueLevel 'hold' is valid
+2019-02-23T15:03:45,026 ERROR [http-nio-8080-exec-4] [TicketExceptionHandler] Validation errors! Sending HTTP status '400' along [com.walmart.ticket.common.entity.ClientError@8b5a065c]
+2019-02-24T10:56:43,103 DEBUG [http-nio-8080-exec-7] [TicketController] Finding number of seats available for level 1
+2019-02-24T10:56:43,317 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] Finding number of seats available for the venue level 1
+2019-02-24T10:56:43,354 DEBUG [http-nio-8080-exec-7] [TicketValidatorImpl] Determining if input venueLevel '1' is valid
+2019-02-24T10:56:43,354 DEBUG [http-nio-8080-exec-7] [TicketValidatorImpl] Venue level '1' is valid
+2019-02-24T10:56:43,354 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] Removing expired seats
+2019-02-24T10:56:43,355 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T10:55:43.355-0500 
+2019-02-24T10:56:43,356 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T10:55:43.355-0500 are []
+2019-02-24T10:56:43,357 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] No expired seat holds found
+2019-02-24T10:56:43,357 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Finding venue details for input venue level 1
+2019-02-24T10:56:43,360 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=1, levelName='Orchestra', price=100, rows=25, seatsInRow=50}
+2019-02-24T10:56:43,360 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Finding Seat bookings by level id 1
+2019-02-24T10:56:43,362 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Seat bookings for level 1 are []
+2019-02-24T10:56:43,363 DEBUG [http-nio-8080-exec-7] [TicketController] Number of seats available at the level 1 are 1250
+2019-02-24T10:58:52,370 DEBUG [http-nio-8080-exec-9] [TicketController] Finding number of seats available for level 2
+2019-02-24T10:58:52,371 DEBUG [http-nio-8080-exec-9] [TicketServiceImpl] Finding number of seats available for the venue level 2
+2019-02-24T10:58:52,371 DEBUG [http-nio-8080-exec-9] [TicketValidatorImpl] Determining if input venueLevel '2' is valid
+2019-02-24T10:58:52,371 DEBUG [http-nio-8080-exec-9] [TicketValidatorImpl] Venue level '2' is valid
+2019-02-24T10:58:52,371 DEBUG [http-nio-8080-exec-9] [TicketServiceImpl] Removing expired seats
+2019-02-24T10:58:52,372 DEBUG [http-nio-8080-exec-9] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T10:57:52.371-0500 
+2019-02-24T10:58:52,373 DEBUG [http-nio-8080-exec-9] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T10:57:52.371-0500 are []
+2019-02-24T10:58:52,373 DEBUG [http-nio-8080-exec-9] [TicketServiceImpl] No expired seat holds found
+2019-02-24T10:58:52,373 DEBUG [http-nio-8080-exec-9] [TicketRepositoryImpl] Finding venue details for input venue level 2
+2019-02-24T10:58:52,373 DEBUG [http-nio-8080-exec-9] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=2, levelName='Main', price=75, rows=20, seatsInRow=100}
+2019-02-24T10:58:52,374 DEBUG [http-nio-8080-exec-9] [TicketRepositoryImpl] Finding Seat bookings by level id 2
+2019-02-24T10:58:52,374 DEBUG [http-nio-8080-exec-9] [TicketRepositoryImpl] Seat bookings for level 2 are []
+2019-02-24T10:58:52,374 DEBUG [http-nio-8080-exec-9] [TicketController] Number of seats available at the level 2 are 2000
+2019-02-24T10:59:13,002 DEBUG [http-nio-8080-exec-1] [TicketController] Finding number of seats available for level hod
+2019-02-24T10:59:13,002 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] Finding number of seats available for the venue level hod
+2019-02-24T10:59:13,002 DEBUG [http-nio-8080-exec-1] [TicketValidatorImpl] Determining if input venueLevel 'hod' is valid
+2019-02-24T10:59:13,003 ERROR [http-nio-8080-exec-1] [TicketExceptionHandler] Validation errors! Sending HTTP status '400' along [com.walmart.ticket.common.entity.ClientError@8b5a065c]
+2019-02-24T10:59:32,036 DEBUG [http-nio-8080-exec-3] [TicketController] Finding number of seats available for level 3
+2019-02-24T10:59:32,037 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Finding number of seats available for the venue level 3
+2019-02-24T10:59:32,037 DEBUG [http-nio-8080-exec-3] [TicketValidatorImpl] Determining if input venueLevel '3' is valid
+2019-02-24T10:59:32,037 DEBUG [http-nio-8080-exec-3] [TicketValidatorImpl] Venue level '3' is valid
+2019-02-24T10:59:32,037 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Removing expired seats
+2019-02-24T10:59:32,038 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T10:58:32.037-0500 
+2019-02-24T10:59:32,039 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T10:58:32.037-0500 are []
+2019-02-24T10:59:32,039 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] No expired seat holds found
+2019-02-24T10:59:32,039 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding venue details for input venue level 3
+2019-02-24T10:59:32,040 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=3, levelName='Balcony 1', price=50, rows=15, seatsInRow=100}
+2019-02-24T10:59:32,040 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Seat bookings by level id 3
+2019-02-24T10:59:32,041 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Seat bookings for level 3 are []
+2019-02-24T10:59:32,041 DEBUG [http-nio-8080-exec-3] [TicketController] Number of seats available at the level 3 are 1500
+2019-02-24T14:44:52,013 DEBUG [http-nio-8080-exec-1] [TicketController] Finding number of seats available for level 2
+2019-02-24T14:44:52,022 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] Finding number of seats available for the venue level 2
+2019-02-24T14:44:52,023 DEBUG [http-nio-8080-exec-1] [TicketValidatorImpl] Determining if input venueLevel '2' is valid
+2019-02-24T14:44:52,145 DEBUG [http-nio-8080-exec-1] [TicketValidatorImpl] Venue level '2' is valid
+2019-02-24T14:44:52,155 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] Removing expired seats
+2019-02-24T14:44:52,170 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T14:43:52.166-0500 
+2019-02-24T14:44:52,195 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T14:43:52.166-0500 are []
+2019-02-24T14:44:52,196 DEBUG [http-nio-8080-exec-1] [TicketServiceImpl] No expired seat holds found
+2019-02-24T14:44:52,196 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Finding venue details for input venue level 2
+2019-02-24T14:44:52,198 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=2, levelName='Main', price=75, rows=20, seatsInRow=100}
+2019-02-24T14:44:52,198 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Finding Seat bookings by level id 2
+2019-02-24T14:44:52,199 DEBUG [http-nio-8080-exec-1] [TicketRepositoryImpl] Seat bookings for level 2 are []
+2019-02-24T14:44:52,205 DEBUG [http-nio-8080-exec-1] [TicketController] Number of seats available at the level 2 are 2000
+2019-02-24T14:44:56,491 DEBUG [http-nio-8080-exec-3] [TicketController] Finding number of seats available for level 1
+2019-02-24T14:44:56,493 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Finding number of seats available for the venue level 1
+2019-02-24T14:44:56,493 DEBUG [http-nio-8080-exec-3] [TicketValidatorImpl] Determining if input venueLevel '1' is valid
+2019-02-24T14:44:56,493 DEBUG [http-nio-8080-exec-3] [TicketValidatorImpl] Venue level '1' is valid
+2019-02-24T14:44:56,493 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] Removing expired seats
+2019-02-24T14:44:56,494 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T14:43:56.493-0500 
+2019-02-24T14:44:56,495 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T14:43:56.493-0500 are []
+2019-02-24T14:44:56,495 DEBUG [http-nio-8080-exec-3] [TicketServiceImpl] No expired seat holds found
+2019-02-24T14:44:56,495 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding venue details for input venue level 1
+2019-02-24T14:44:56,496 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=1, levelName='Orchestra', price=100, rows=25, seatsInRow=50}
+2019-02-24T14:44:56,496 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Finding Seat bookings by level id 1
+2019-02-24T14:44:56,497 DEBUG [http-nio-8080-exec-3] [TicketRepositoryImpl] Seat bookings for level 1 are []
+2019-02-24T14:44:56,498 DEBUG [http-nio-8080-exec-3] [TicketController] Number of seats available at the level 1 are 1250
+2019-02-24T14:45:01,318 DEBUG [http-nio-8080-exec-4] [TicketController] Finding number of seats available for level 5
+2019-02-24T14:45:01,321 DEBUG [http-nio-8080-exec-4] [TicketServiceImpl] Finding number of seats available for the venue level 5
+2019-02-24T14:45:01,321 DEBUG [http-nio-8080-exec-4] [TicketValidatorImpl] Determining if input venueLevel '5' is valid
+2019-02-24T14:45:01,322 DEBUG [http-nio-8080-exec-4] [TicketValidatorImpl] Venue level '5' is valid
+2019-02-24T14:45:01,322 DEBUG [http-nio-8080-exec-4] [TicketServiceImpl] Removing expired seats
+2019-02-24T14:45:01,322 DEBUG [http-nio-8080-exec-4] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T14:44:01.322-0500 
+2019-02-24T14:45:01,323 DEBUG [http-nio-8080-exec-4] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T14:44:01.322-0500 are []
+2019-02-24T14:45:01,323 DEBUG [http-nio-8080-exec-4] [TicketServiceImpl] No expired seat holds found
+2019-02-24T14:45:01,323 DEBUG [http-nio-8080-exec-4] [TicketRepositoryImpl] Finding venue details for input venue level 5
+2019-02-24T14:45:01,324 DEBUG [http-nio-8080-exec-4] [TicketRepositoryImpl] Venue details for input level is null
+2019-02-24T14:45:01,324 DEBUG [http-nio-8080-exec-4] [TicketServiceImpl] Number of seats available for the venue 5 are 0
+2019-02-24T14:45:01,324 DEBUG [http-nio-8080-exec-4] [TicketController] Number of seats available at the level 5 are 0
+2019-02-24T14:45:06,292 DEBUG [http-nio-8080-exec-6] [TicketController] Finding number of seats available for level 4
+2019-02-24T14:45:06,294 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] Finding number of seats available for the venue level 4
+2019-02-24T14:45:06,295 DEBUG [http-nio-8080-exec-6] [TicketValidatorImpl] Determining if input venueLevel '4' is valid
+2019-02-24T14:45:06,295 DEBUG [http-nio-8080-exec-6] [TicketValidatorImpl] Venue level '4' is valid
+2019-02-24T14:45:06,295 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] Removing expired seats
+2019-02-24T14:45:06,295 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T14:44:06.295-0500 
+2019-02-24T14:45:06,297 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T14:44:06.295-0500 are []
+2019-02-24T14:45:06,297 DEBUG [http-nio-8080-exec-6] [TicketServiceImpl] No expired seat holds found
+2019-02-24T14:45:06,297 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding venue details for input venue level 4
+2019-02-24T14:45:06,298 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=4, levelName='Balcony 2', price=40, rows=15, seatsInRow=100}
+2019-02-24T14:45:06,299 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Finding Seat bookings by level id 4
+2019-02-24T14:45:06,303 DEBUG [http-nio-8080-exec-6] [TicketRepositoryImpl] Seat bookings for level 4 are []
+2019-02-24T14:45:06,303 DEBUG [http-nio-8080-exec-6] [TicketController] Number of seats available at the level 4 are 1500
+2019-02-24T14:45:09,989 DEBUG [http-nio-8080-exec-7] [TicketController] Finding number of seats available for level 3
+2019-02-24T14:45:09,990 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] Finding number of seats available for the venue level 3
+2019-02-24T14:45:09,990 DEBUG [http-nio-8080-exec-7] [TicketValidatorImpl] Determining if input venueLevel '3' is valid
+2019-02-24T14:45:09,990 DEBUG [http-nio-8080-exec-7] [TicketValidatorImpl] Venue level '3' is valid
+2019-02-24T14:45:09,990 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] Removing expired seats
+2019-02-24T14:45:09,990 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T14:44:09.990-0500 
+2019-02-24T14:45:09,992 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T14:44:09.990-0500 are []
+2019-02-24T14:45:09,992 DEBUG [http-nio-8080-exec-7] [TicketServiceImpl] No expired seat holds found
+2019-02-24T14:45:09,992 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Finding venue details for input venue level 3
+2019-02-24T14:45:09,993 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=3, levelName='Balcony 1', price=50, rows=15, seatsInRow=100}
+2019-02-24T14:45:09,993 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Finding Seat bookings by level id 3
+2019-02-24T14:45:09,994 DEBUG [http-nio-8080-exec-7] [TicketRepositoryImpl] Seat bookings for level 3 are []
+2019-02-24T14:45:09,994 DEBUG [http-nio-8080-exec-7] [TicketController] Number of seats available at the level 3 are 1500
+2019-02-24T14:45:13,591 DEBUG [http-nio-8080-exec-8] [TicketController] Finding number of seats available for level 1
+2019-02-24T14:45:13,593 DEBUG [http-nio-8080-exec-8] [TicketServiceImpl] Finding number of seats available for the venue level 1
+2019-02-24T14:45:13,593 DEBUG [http-nio-8080-exec-8] [TicketValidatorImpl] Determining if input venueLevel '1' is valid
+2019-02-24T14:45:13,593 DEBUG [http-nio-8080-exec-8] [TicketValidatorImpl] Venue level '1' is valid
+2019-02-24T14:45:13,593 DEBUG [http-nio-8080-exec-8] [TicketServiceImpl] Removing expired seats
+2019-02-24T14:45:13,594 DEBUG [http-nio-8080-exec-8] [TicketRepositoryImpl] Finding Expired Seat Holds before time instant 2019-02-24T14:44:13.593-0500 
+2019-02-24T14:45:13,595 DEBUG [http-nio-8080-exec-8] [TicketRepositoryImpl] Ids of expired seat holds before time instant 2019-02-24T14:44:13.593-0500 are []
+2019-02-24T14:45:13,596 DEBUG [http-nio-8080-exec-8] [TicketServiceImpl] No expired seat holds found
+2019-02-24T14:45:13,596 DEBUG [http-nio-8080-exec-8] [TicketRepositoryImpl] Finding venue details for input venue level 1
+2019-02-24T14:45:13,597 DEBUG [http-nio-8080-exec-8] [TicketRepositoryImpl] Venue details for input level is Venue{levelId=1, levelName='Orchestra', price=100, rows=25, seatsInRow=50}
+2019-02-24T14:45:13,598 DEBUG [http-nio-8080-exec-8] [TicketRepositoryImpl] Finding Seat bookings by level id 1
+2019-02-24T14:45:13,599 DEBUG [http-nio-8080-exec-8] [TicketRepositoryImpl] Seat bookings for level 1 are []
+2019-02-24T14:45:13,600 DEBUG [http-nio-8080-exec-8] [TicketController] Number of seats available at the level 1 are 1250
